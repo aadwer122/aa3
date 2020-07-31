@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto' , sans-serif ;
+}
+.promo{
+    background: url("../img/bg/firstBg.jpg") center center/cover no-repeat;
+    padding: 40px 0 60px 0;
+}
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.logo .logo_img{
+    display: block;
+    margin: 0 auto;
+}
+.logo .logo_text{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;    
+}
+h1{
+    margin-top: 53px;
+}
+.title{
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2.title{
+    margin-top: 30px;
+}
+.title_big{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 400;   
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+} 
+.promo .promo_text{
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 13px;
+}
+.promo .promo_text span{
+    color: #f9bf3b;
+    font-weight: 700;
+}
+.promo .promo_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: none;
+    /* border: 4px solid rgba(0, 0, 0, 0.23); */
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}   
+.more{
+    margin-top: 73px;
+}
+.more .more_img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.more .more_text{
+    color: #ffffff;   
+    font-size: 15px;    
+    font-weight: 400;     
+    text-transform: uppercase;
+    text-align: center;
+}
+.information{
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+.information .information_header,.finish .finish_header{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;   
+    text-transform: uppercase;
+    text-align: center;
+}
+.finish .finish_header{
+    color: #ffffff;
+}
+.information .information_line,.finish .finish_line{
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.information .information_subheader{
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 17px;
+}
+.information .information_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.information .information_wrapper .information_item{        
+    width: 300px;
+    text-align: center;
+}
+.information .information_wrapper .information_item .information_img{
+    width: 100%;
+}
+.information .information_wrapper .information_descr{
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.optimization{
+    position: relative;
+    padding: 20px 0;    
+}
+.optimization_header{
+    margin-left: 391px;
+    color: #299cbd;
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.optimization .optimization_text{
+    margin-left: 391px;
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    
+}
+.optimization .optimization_text span{
+    font-weight: 700;
+}
+.optimization .optimization_img{
+    position: absolute;
+    top: 0px;
+    left: -45px;
+    z-index: -1;
+}
+.finish{
+    padding: 80px 0;
+    background: url(../img/finish/finishBg.jpg) center center/cover no-repeat;
+}
+.finish .finish_wraper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish_wraper .finish_item{
+    width: 204px;
+}
+.finish .finish_wraper .finish_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.finish .finish_wraper .finish_descr{
+    color: #efefef;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+}
+.gift{    
+    background-color: #efefef;
+    padding: 40px 0;    
+}
+.gift .gift_icon{
+    display: block;
+    margin: 0 auto;   
+}
+.gift .gift_text{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 42px;
+}
+.gift .gift_bt{
+    display: block;
+    margin: 0 auto;
+    margin-top: 52px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: none;
+    /* border: 4px solid rgba(0, 0, 0, 0.11); */
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    
+
+    
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.alarm{
+    padding: 35px 0 35px 0;
+}
+.alarm .alarm_img{
+    display: block;
+    margin: 0 auto;    
+}
+.alarm .alarm_webif{
+    margin-top: 37px;
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.alarm .alarm_date{
+    margin-top: 30px;
+    color: #299cbd;    
+    font-size: 36px;   
+    font-weight: 400;   
+    text-transform: uppercase;
+    text-align: center;
+}
+.alarm .alarm_faster{
+    margin-top: 25px;
+    color: #4a4a4a; 
+    font-size: 23px;   
+    font-weight: 400;  
+    text-align: center;
+}
+.footer{
+    
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+.footer .footer_text{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;   
+    text-align: center;
+}
+.footer .footer_text span{
+    text-decoration: underline;
+}
